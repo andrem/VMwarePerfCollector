@@ -7,7 +7,6 @@ use strict;
 use warnings;
 use VMware::VIRuntime;
 use VMware::VILib;
-use Data::Dumper;
 use Time::HiRes qw(usleep nanosleep);
 
 $SIG{__DIE__} = sub{Util::disconnect() };
