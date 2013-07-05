@@ -7,7 +7,6 @@ use strict;
 use warnings;
 use VMware::VIRuntime;
 use VMware::VILib;
-use Data::Dumper;
 
 $SIG{__DIE__} = sub{Util::disconnect() };
 
